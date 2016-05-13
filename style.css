@@ -1,0 +1,88 @@
+*{margin: 0;
+padding: 0;
+}
+h1{
+	text-align: center;
+}
+body{
+	background-color: #E4C9C9;
+}
+.container{
+	width: 960px;
+	height: 800px;
+	margin: 0 auto;
+	position: relative; 
+	
+}
+img{
+	padding: 10px;
+	background-color: #FFFFFF;
+	position: absolute; 
+	z-index: 1;
+	box-shadow: 0px 0px 10px #FDF6F6;
+}
+img:hover{
+	transform:scale(1.2);
+	z-index: 2;
+}
+.pic1{
+	top: 100px;
+	left: 0px;
+	transform: rotate(30deg);
+	transition:1s ease;
+}
+.pic2{
+	 top: 100px;
+	left: 150px; 
+
+	transform: rotate(-45deg);
+	transition:1s ease;
+}
+.pic3{
+	top: 100px;
+	left: 300px;
+	transform: rotate(0deg);
+	transition:1s ease;
+}
+.pic4{
+	top: 100px;
+	left: 500px;
+	transform: rotate(0deg);
+	transition:1s ease;
+}
+.pic5{
+	top: 100px;
+	left: 700px;
+	transform: rotate(45deg);
+	transition:1s ease;
+}
+.pic6{
+	top: 300px;
+	left: 0px;
+	transform: rotate(0deg);
+	transition:1s ease;
+}
+.pic7{
+	top: 300px;
+	left: 100px;
+	transform: rotate(-45deg);
+	transition:1s ease;
+}
+.pic8{
+	top: 250px;
+	left: 250px;
+	transform: rotate(-45deg);
+	transition:1s ease;
+}
+.pic9{
+	top: 350px;
+	left: 350px;
+	transform: rotate(0deg);
+	transition:1s ease;
+}
+.pic10{
+	top: 300px;
+	left: 500px;
+	transform: rotate(15deg);
+	transition:1s ease;
+}
